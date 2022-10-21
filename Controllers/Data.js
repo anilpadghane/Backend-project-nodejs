@@ -184,4 +184,4 @@ const data =(res,req)=>{
         ]
     )
 }
-module.exports.dataControllers = data;
+module.exports.apiControllers = data;
