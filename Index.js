@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-const dataRouter =require("./Routes/Data");
+const dataRouter =require("./Routes/data");
 
 const cors = require("cors");
 

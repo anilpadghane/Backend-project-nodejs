@@ -1,10 +1,10 @@
 const express =require("express");
 
-const server = require("../Controllers/Data")
+const server = require("../Controllers/data")
 
 const dataRouter = express.Router()
 
-dataRouter.route("/datahome")
+dataRouter.route("/home")
 .get(server.apiControllers)
 
 module.exports = dataRouter;
