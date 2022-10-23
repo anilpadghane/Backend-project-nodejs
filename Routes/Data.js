@@ -1,12 +1,11 @@
-const express =require("express");
+const express = require("express");
 
-const server = require("../Controllers/data")
+const server = require("../Contollers/data");
 
-const dataRouter = express.Router()
+const dataRouter = express.Router();
 
 dataRouter
-       .route("/home")
+  .route("/home")
 
-       .get(server.apiControllers);
-
+  .get(server.apicontroller);
 module.exports = dataRouter;

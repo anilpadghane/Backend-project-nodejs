@@ -1,7 +1,6 @@
-const data =(res,req)=>{
-    res.send(
-        [
-            {
+const data = (req, res) => {
+    res.send([
+      {
                 id:1,
                 image:"https://upload.wikimedia.org/wikipedia/en/4/40/Brahmastra_Teaser.jpeg",
                 Title:"Brahmāstra: Part One",
@@ -184,4 +183,4 @@ const data =(res,req)=>{
         ]
     )
 }
-module.exports.apiControllers = data;
+module.exports.apicontroller = data;
